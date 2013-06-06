@@ -42,11 +42,15 @@ $settings['link']  --> getting link value from gallery settings<br />
 $settings['columns']  --> getting columns value from gallery settings<br />
 $settings['orderby']  --> getting sorting type from gallery settings<br />
 
+<a href="http://mmx.name/" target="_blank">Website Link</a>
+
 == Installation ==
 
 You can download and install gallery-theme using the built in wordpress plugin installer. If you download gallery-theme manually, make sure it is uploaded to "/wp-content/plugins/gallery-theme/".<br />
 Activate gallery-theme in the "Plugins" admin panel using the "Activate" link.<br />
 That's it. There are no settings or wizard.
+
+<a href="http://mmx.name/" target="_blank">Website Link</a>
 
 == Changelog ==
 
