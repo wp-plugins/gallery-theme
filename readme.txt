@@ -26,20 +26,20 @@ Please remember: It's better to place all your needed css and javascript files o
 
 These are the codes you can use in your gallery theme file (inside the loop):
 
-<?php echo $image['thumb']; ?>  --> getting thumbnail url of the image
-<?php echo $image['medium']; ?>  --> getting medium-size url of the image
-<?php echo $image['large']; ?>  --> getting large-size url of the image
-<?php echo $image['full']; ?>  --> getting full-size url of the image
-<?php echo $image['width']; ?>  --> getting full-size image width
-<?php echo $image['height']; ?>  --> getting full-size image height
-<?php echo $image['link']; ?>  --> getting image page link
-<?php echo $image['title']; ?>  --> getting image title
-<?php echo $image['caption']; ?>  --> getting image caption
-<?php echo $image['alt']; ?>  --> getting image alternative text
-<?php echo $image['description']; ?>  --> getting image description
-<?php echo $settings['link']; ?>  --> getting link value from gallery settings
-<?php echo $settings['columns']; ?>  --> getting columns value from gallery settings
-<?php echo $settings['orderby']; ?>  --> getting sorting type from gallery settings
+$image['thumb']  --> getting thumbnail url of the image
+$image['medium']  --> getting medium-size url of the image
+$image['large']  --> getting large-size url of the image
+$image['full']  --> getting full-size url of the image
+$image['width']  --> getting full-size image width
+$image['height']  --> getting full-size image height
+$image['link']  --> getting image page link
+$image['title']  --> getting image title
+$image['caption']  --> getting image caption
+$image['alt']  --> getting image alternative text
+$image['description']  --> getting image description
+$settings['link']  --> getting link value from gallery settings
+$settings['columns']  --> getting columns value from gallery settings
+$settings['orderby']  --> getting sorting type from gallery settings
 
 == Installation ==
 
