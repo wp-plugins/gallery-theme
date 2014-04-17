@@ -2,7 +2,7 @@
 /*
 Plugin Name: Gallery Theme
 Description: You will be able to deeply style wordpress galleries using this plugin.
-Version: 1.1
+Version: 1.2
 Author: Massoud-Mx
 Author URI: http://mmx.name/
 License: GPL2
@@ -24,6 +24,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
+
 
 function gt_image($attachment_id) {
 	$attachment = get_post($attachment_id);

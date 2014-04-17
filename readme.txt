@@ -3,7 +3,7 @@
 Contributors: massoud-mx
 Tags: gallery, theme, template, style, templating, styling, photo, external
 Requires at least: 3.5
-Tested up to: 3.5.1
+Tested up to: 3.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,5 +54,5 @@ That's it. There are no settings or wizard.
 
 == Changelog ==
 
-= 1.1 =
+= 1.2 =
 * One fixed issue.
