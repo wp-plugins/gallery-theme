@@ -55,9 +55,8 @@ That's it. There are no settings or wizard.
 
 == Screenshots ==
 
-screenshot-1.gif
-
-screenshot-2.gif
+1. An example of plugin in action (Fotorama Theme)
+2. How to edit gallery shortcode to use Fotorama Theme
 
 == Changelog ==
 
