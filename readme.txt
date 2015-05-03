@@ -27,8 +27,7 @@ Note: It's better to place all your needed css and javascript files out of your 
 
 Note: Beside the simple default theme, there is another theme 'Fotorama' already integrated and ready to use with this plugin. You can use this plugin just by adding theme="fotorama" into your gallery shortcodes.
 
-These are the codes you can use in your gallery theme files (inside the loop):
-
+These are the codes you can use in your gallery theme files (inside the loop):<br>
 $image['thumb']  --> getting thumbnail url of the image<br />
 $image['medium']  --> getting medium-size url of the image<br />
 $image['large']  --> getting large-size url of the image<br />
