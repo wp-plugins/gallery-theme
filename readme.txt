@@ -56,7 +56,7 @@ That's it. There are no settings or wizard.
 == Screenshots ==
 
 1. An example of plugin in action (Fotorama Theme)
-2. How to edit gallery shortcode to use Fotorama Theme
+2. Editing gallery shortcode to use Fotorama Theme
 
 == Changelog ==
 
