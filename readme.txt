@@ -23,7 +23,8 @@ For example:
 - If you choose your gallery theme file name like this: 'gallery-theme-default.php' and place it in the root of your main template folder, wordpress galleries will use this theme as default theme instead of wordpress's internal gallery theme.<br>
 - If you choose your gallery theme file name like this: 'gallery-theme-example.php' and place it in the root of your main template folder, you should edit your gallery shortcodes like this to use this theme: [gallery ids="729,732,731,720" theme="example"].
 
-Note: It's better to place all your needed css and javascript files out of your gallery theme file. It's better to place them in your main template's header file.<br>
+Note: It's better to place all your needed css and javascript files out of your gallery theme file. It's better to place them in your main template's header file.
+
 Note: Beside the simple default theme, there is another theme 'Fotorama' already integrated and ready to use with this plugin. You can use this plugin just by adding theme="fotorama" into your gallery shortcodes.
 
 These are the codes you can use in your gallery theme files (inside the loop):
