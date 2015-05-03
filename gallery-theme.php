@@ -2,7 +2,7 @@
 /*
 Plugin Name: Gallery Theme
 Description: You will be able to deeply style wordpress galleries using this plugin.
-Version: 1.2
+Version: 1.3
 Author: Massoud-Mx
 Author URI: http://mmx.name/
 License: GPL2
@@ -24,7 +24,6 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
-
 
 function gt_image($attachment_id) {
 	$attachment = get_post($attachment_id);
@@ -75,18 +74,23 @@ function gallery_theme($atts) {
 	}
 	if(count($images) > 0) {
 		if(file_exists(TEMPLATEPATH.'/gallery-theme-'.$theme.'.php')) {
+			ob_start();
 			include(TEMPLATEPATH.'/gallery-theme-'.$theme.'.php');
+			$file_content = ob_get_clean();
+			return $file_content;
 		}
 		elseif(file_exists(ABSPATH.'/wp-content/plugins/gallery-theme/themes/gallery-theme-'.$theme.'.php')) {
+			ob_start();
 			include(ABSPATH.'/wp-content/plugins/gallery-theme/themes/gallery-theme-'.$theme.'.php');
-			
+			$file_content = ob_get_clean();
+			return $file_content;
 		}
 		else {
-			return _e('[Gallery theme not found]');
+			return '[Gallery theme not found]';
 		}
 	}
 	else {
-		return _e('[Images not found]');
+		return '[Images not found]';
 	}
 }
 ?>

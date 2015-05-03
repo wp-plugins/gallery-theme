@@ -17,12 +17,10 @@
 <?php echo $settings['orderby']; ?> --- getting sorting type from gallery settings
 */
 ?>
-<ul class="gallery-theme">
+<div class="gallery-theme">
 	<?php foreach($images as $id): $image = gt_image($id); ?>
-	<li>
-		<a href="<?php echo $image['full']; ?>">
-			<img src="<?php echo $image['thumb']; ?>" alt="<?php echo $image['alt']; ?>" />
-		</a>
-	</li>
+	<a href="<?php echo $image['full']; ?>">
+		<img src="<?php echo $image['thumb']; ?>" alt="<?php echo $image['alt']; ?>" />
+	</a>
 	<?php endforeach; ?>
-</ul>
+</div>
