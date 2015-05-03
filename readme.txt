@@ -62,5 +62,5 @@ That's it. There are no settings or wizard.
 == Changelog ==
 
 = 1.3 =
-* Added Photorama Theme.
+* Added Fotorama Theme.
 * Two fixed issues.
