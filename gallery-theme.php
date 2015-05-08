@@ -2,7 +2,7 @@
 /*
 Plugin Name: Gallery Theme
 Description: You will be able to deeply style wordpress galleries using this plugin.
-Version: 1.3
+Version: 1.3.1
 Author: Massoud-Mx
 Author URI: http://mmx.name/
 License: GPL2
@@ -63,10 +63,25 @@ function gallery_theme($atts) {
 	$settings[link] = $link;
 	$settings[columns] = $columns;
 	$settings[orderby] = $orderby;
-	$init_ids = array_map('intval', explode(",", $ids));
-	foreach($init_ids as $init_id) {
-		if(is_array(wp_get_attachment_image_src($init_id))) {
-			$images[] = $init_id;
+	if($ids !== "none") {
+		$init_ids = array_map('intval', explode(",", $ids));
+		foreach($init_ids as $init_id) {
+			if(is_array(wp_get_attachment_image_src($init_id))) {
+				$images[] = $init_id;
+			}
+		}
+	}
+	else {
+		$all_images = array(
+			'post_type' => 'attachment',
+			'numberposts' => -1,
+			'post_mime_type' => 'image',
+			'orderby' => 'post_date',
+			'order' => 'ASC'
+		);
+		$init_ids = get_posts($all_images);
+		foreach($init_ids as $init_id) {
+			$images[] = $init_id->ID;
 		}
 	}
 	if($orderby == 'rand') {

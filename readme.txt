@@ -3,7 +3,7 @@
 Contributors: massoud-mx
 Tags: gallery, theme, template, style, templating, styling, photo, external
 Requires at least: 3.5
-Tested up to: 4.2.1
+Tested up to: 4.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,9 @@ That's it. There are no settings or wizard.
 2. Editing gallery shortcode to use Fotorama Theme
 
 == Changelog ==
+
+= 1.3.1 =
+* Fixed plain [gallery] shortcode to show all images.
 
 = 1.3 =
 * Added Fotorama Theme.
