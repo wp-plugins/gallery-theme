@@ -2,7 +2,7 @@
 /*
 Plugin Name: Gallery Theme
 Description: You will be able to deeply style wordpress galleries using this plugin.
-Version: 1.3.1
+Version: 1.4
 Author: Massoud-Mx
 Author URI: http://mmx.name/
 License: GPL2

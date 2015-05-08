@@ -60,7 +60,7 @@ That's it. There are no settings or wizard.
 
 == Changelog ==
 
-= 1.3.1 =
+= 1.4 =
 * Fixed plain [gallery] shortcode to show all images.
 
 = 1.3 =
