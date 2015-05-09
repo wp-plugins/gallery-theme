@@ -60,8 +60,11 @@ That's it. There are no settings or wizard.
 
 == Changelog ==
 
+= 1.4.1 =
+* Fixed an issue related to plain [gallery] shortcode.
+
 = 1.4 =
-* Fixed plain [gallery] shortcode to show all images.
+* Fixed plain [gallery] shortcode to show all attached images.
 
 = 1.3 =
 * Added Fotorama Theme.
